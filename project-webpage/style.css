@@ -9,7 +9,18 @@ body {
 	width: 90%;
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 80px 0;
+	padding: 80px 0 120px;
+}
+
+.sticky {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 16px 0;
+	background: #fff;
+	-webkit-backdrop-filter: blur(3px);
+	opacity: 0.83;
+	box-shadow: 0 -5px 8px rgba(0,0,0,0.2);
 }
 
 .btn-group {
