@@ -55,8 +55,12 @@ h1 {
 
 img.logo {
 	width: 250px;
-	margin: 0 auto 70px;
-	display: block;
+	margin: 0 auto 60px;
+}
+
+img.github {
+	margin: 60px auto 0;
+	width: 50px;
 }
 
 a.button {
